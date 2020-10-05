@@ -10,7 +10,7 @@ export class App {
   init() {
     const site = new Site('#site')
     site.render(this.model)
-    
+
     const panel = new Panel('#panel')
     panel.render(this.sidebar)
   }

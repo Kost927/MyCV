@@ -297,7 +297,32 @@ var TextBlock = /*#__PURE__*/function (_Block4) {
 }(Block);
 
 exports.TextBlock = TextBlock;
-},{"../utils":"utils.js"}],"model.js":[function(require,module,exports) {
+},{"../utils":"utils.js"}],"constants.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.goit = exports.english = exports.academy = exports.proj = exports.text = exports.contact = exports.languages = exports.soft = exports.tech = void 0;
+var tech = "<ul>\n<li>HTML5</li>\n<li>CSS3</li>\n<li>GIT</li>\n<li>WebPack</li>\n<li>Redux</li>\n<li>npm</li>\n<li>JavaScript</li>\n<li>React.js</li>\n</ul>";
+exports.tech = tech;
+var soft = "<ul>\n<li>Result-oriented</li>\n<li>Sociable</li>\n<li>Reliable</li>\n<li>Patient</li>\n<li>Fast learner</li>\n<li>Good team player</li>\n<li>Optimistic & open to people.</li>\n</ul>";
+exports.soft = soft;
+var languages = "<ul>\n<li>Ukranian</li>\n<li>English</li>\n<li>Russian</li>\n</ul>";
+exports.languages = languages;
+var contact = "<ul>\n<li>Phone number: +380992903619</li>\n<li>Email: kost927@gmail.com</li>\n<li>Kiev</li>\n<li><a href=\"https://www.linkedin.com/in/kostyantin-polishko/\">LinkedIn</a></li>\n\n</ul>";
+exports.contact = contact;
+var text = "\nI\u2019m looking for a junior position to get a proper background in web development and gain practical skills. I\u2019ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full-time course (4 months, 40 hours per week).\xA0 My plan is to get the first paid-job in the field max in 6 months. So, now, I want to focus on learning new skills and getting a real-life experience in Front-End.\n";
+exports.text = text;
+var proj = "<ul>\n<li>\n<a href=\"https://bit.ly/2FBj2LS\">HELLENGLISH:\xA0</a> => CSS_3/HTML_5 => Chrome DevTools, Responsive Web, Mobile First, BEM, Bootstrap 4, SASS, Gulp\xA0\n</li>\n<li>\n<a href=\"https://bit.ly/3iDVm88\">HOME APPLIANCES STORE:\xA0</a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, FireBase DB\n</li>\n<li>\n<a href=\"https://make-it-habit.netlify.app\">MAKE IT HABIT:\xA0</a> => React.JS => React (Lazy/Suspense), Redux, React Hooks\n</li>\n</ul>";
+exports.proj = proj;
+var academy = "<ul>\n<li>\nEnd date 2011\n</li>\n<li>\nFoundry production, Master\u2019s degree\n</li>\n</ul>";
+exports.academy = academy;
+var english = "<ul>\n<li>\nCourse.\n</li>\n<li>\nTraining center in Dnipro.\n</li>\n</ul>";
+exports.english = english;
+var goit = "<ul>\n<li>\nIT Bootcamp.\n</li>\n<li>\nFront end development.\n</li>\n</ul>";
+exports.goit = goit;
+},{}],"model.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -307,11 +332,8 @@ exports.model = void 0;
 
 var _blocks = require("./classes/blocks");
 
-var text = "\nI\u2019m looking for a junior position to get a proper background in web development and gain practical skills. I\u2019ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full-time course (4 months, 40 hours per week).\xA0 My plan is to get the first paid-job in the field max in 6 months. So, now, I want to focus on learning new skills and getting a real-life experience in Front-End.\n";
-var proj = "<ul>\n<li>\n<a href=\"https://bit.ly/2FBj2LS\">HELLENGLISH:\xA0</a> => CSS_3/HTML_5 => Chrome DevTools, Responsive Web, Mobile First, BEM, Bootstrap 4, SASS, Gulp\xA0\n</li>\n<li>\n<a href=\"https://bit.ly/3iDVm88\">HOME APPLIANCES STORE:\xA0</a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, FireBase DB\n</li>\n<li>\n<a href=\"https://make-it-habit.netlify.app\">MAKE IT HABIT:\xA0</a> => React.JS => React (Lazy/Suspense), Redux, React Hooks\n</li>\n</ul>";
-var academy = "<ul>\n<li>\nEnd date 2011\n</li>\n<li>\nFoundry production, Master\u2019s degree\n</li>\n</ul>";
-var english = "<ul>\n<li>\nCourse.\n</li>\n<li>\nTraining center in Dnipro.\n</li>\n</ul>";
-var goit = "<ul>\n<li>\nIT Bootcamp.\n</li>\n<li>\nFront end development.\n</li>\n</ul>";
+var _constants = require("./constants");
+
 var model = [new _blocks.TitleBlock('CAREER GOALS', {
   tag: 'h2',
   styles: {
@@ -320,7 +342,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(text, {
+}), new _blocks.TextBlock(_constants.text, {
   styles: {
     padding: '1rem',
     'font-weight': '500',
@@ -334,7 +356,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(proj, {
+}), new _blocks.TextBlock(_constants.proj, {
   styles: {
     padding: '1rem',
     'font-weight': '500',
@@ -430,7 +452,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(academy, {
+}), new _blocks.TextBlock(_constants.academy, {
   styles: {
     'font-weight': '500',
     "font-style": 'italic'
@@ -443,7 +465,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(english, {
+}), new _blocks.TextBlock(_constants.english, {
   styles: {
     'font-weight': '500',
     "font-style": 'italic'
@@ -456,14 +478,14 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(goit, {
+}), new _blocks.TextBlock(_constants.goit, {
   styles: {
     'font-weight': '500',
     "font-style": 'italic'
   }
 })];
 exports.model = model;
-},{"./classes/blocks":"classes/blocks.js"}],"classes/site.js":[function(require,module,exports) {
+},{"./classes/blocks":"classes/blocks.js","./constants":"constants.js"}],"classes/site.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -591,12 +613,10 @@ var _polishko = _interopRequireDefault(require("./assets/polishko.jpg"));
 
 var _blocks = require("./classes/blocks");
 
+var _constants = require("./constants");
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var tech = "<ul>\n<li>HTML5</li>\n<li>CSS3</li>\n<li>GIT</li>\n<li>WebPack</li>\n<li>Redux</li>\n<li>npm</li>\n<li>JavaScript</li>\n<li>React.js</li>\n</ul>";
-var soft = "<ul>\n<li>Result-oriented</li>\n<li>Sociable</li>\n<li>Reliable</li>\n<li>Patient</li>\n<li>Fast learner</li>\n<li>Good team player</li>\n<li>Optimistic & open to people.</li>\n</ul>";
-var languages = "<ul>\n<li>Ukranian</li>\n<li>English</li>\n<li>Russian</li>\n</ul>";
-var contact = "<ul>\n<li>Phone number: +380992903619</li>\n<li>Email: kost927@gmail.com</li>\n<li>Kiev</li>\n<li><a href=\"https://www.linkedin.com/in/kostyantin-polishko/\">LinkedIn</a></li>\n\n</ul>";
 var sidebar = [new _blocks.ImageBlock(_polishko.default, {
   styles: {
     padding: "2rem 0",
@@ -634,7 +654,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
     "text-align": "left",
     "font-weight": "black"
   }
-}), new _blocks.TextBlock(tech, {
+}), new _blocks.TextBlock(_constants.tech, {
   styles: {
     padding: "0 1.5rem 0 1.5rem",
     "font-weight": "500",
@@ -648,7 +668,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
     "text-align": "left",
     "font-weight": "black"
   }
-}), new _blocks.TextBlock(soft, {
+}), new _blocks.TextBlock(_constants.soft, {
   styles: {
     padding: "0 1.5rem 0 1.5rem",
     "font-weight": "500",
@@ -662,7 +682,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
     "text-align": "left",
     "font-weight": "black"
   }
-}), new _blocks.TextBlock(languages, {
+}), new _blocks.TextBlock(_constants.languages, {
   styles: {
     padding: "0 1.5rem 0 1.5rem",
     "font-weight": "500",
@@ -676,7 +696,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
     "text-align": "left",
     "font-weight": "black"
   }
-}), new _blocks.TextBlock(contact, {
+}), new _blocks.TextBlock(_constants.contact, {
   styles: {
     padding: "0 1.5rem 0 1.5rem",
     "font-weight": "500",
@@ -684,7 +704,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
   }
 })];
 exports.sidebar = sidebar;
-},{"./assets/polishko.jpg":"assets/polishko.jpg","./classes/blocks":"classes/blocks.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"./assets/polishko.jpg":"assets/polishko.jpg","./classes/blocks":"classes/blocks.js","./constants":"constants.js"}],"../node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
