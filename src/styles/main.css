@@ -3,3 +3,8 @@
     width: 1200px;
     display: flex;
 }
+
+.sidebar {
+    background-color: rgb(51, 64, 87);
+    color: white;
+}

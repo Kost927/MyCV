@@ -4,5 +4,10 @@
     display: flex;
 }
 
+.sidebar {
+    background-color: rgb(51, 64, 87);
+    color: white;
+}
+
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */

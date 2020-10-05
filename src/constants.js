@@ -54,29 +54,17 @@ export const proj = `<ul>
 </ul>`
 
 export const academy = `<ul>
-<li>
-End date 2011
-</li>
-<li>
-Foundry production, Master’s degree
-</li>
+<li>End date 2011</li>
+<li>Foundry production, Master’s degree</li>
 </ul>`
 
 export const english = `<ul>
-<li>
-Course.
-</li>
-<li>
-Training center in Dnipro.
-</li>
+<li>Course.</li>
+<li>Training center in Dnipro.</li>
 </ul>`
 
 
 export const goit = `<ul>
-<li>
-IT Bootcamp.
-</li>
-<li>
-Front end development.
-</li>
+<li>IT Bootcamp.</li>
+<li>Front end development.</li>
 </ul>`

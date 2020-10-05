@@ -626,13 +626,13 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
   imageStyles: {
     width: "80%",
     height: "auto",
-    "border-radius": "50%"
+    "border-radius": "50%",
+    border: "5px solid white"
   },
   alt: "My photo"
 }), new _blocks.TitleBlock("KOSTIANTYN POLISHKO", {
   tag: "h1",
   styles: {
-    color: "black",
     padding: "0.3rem 1.5rem",
     "text-align": "left",
     "font-weight": "black"
@@ -640,7 +640,6 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
 }), new _blocks.TitleBlock("Front-end developer", {
   tag: "h4",
   styles: {
-    color: "black",
     padding: "0 1.5rem",
     "text-align": "left",
     "font-weight": "black",
@@ -649,7 +648,6 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
 }), new _blocks.TitleBlock("TECH SKILLS", {
   tag: "h2",
   styles: {
-    color: "black",
     padding: "1.5rem 1.5rem 0 1.5rem",
     "text-align": "left",
     "font-weight": "black"
@@ -663,7 +661,6 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
 }), new _blocks.TitleBlock("SOFT SKILLS", {
   tag: "h2",
   styles: {
-    color: "black",
     padding: "1.5rem 1.5rem 0 1.5rem",
     "text-align": "left",
     "font-weight": "black"
@@ -677,7 +674,6 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
 }), new _blocks.TitleBlock("LANGUAGES", {
   tag: "h2",
   styles: {
-    color: "black",
     padding: "1.5rem 1.5rem 0 1.5rem",
     "text-align": "left",
     "font-weight": "black"
@@ -691,7 +687,6 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
 }), new _blocks.TitleBlock("CONTACT DETAILS:", {
   tag: "h2",
   styles: {
-    color: "black",
     padding: "1.5rem 1.5rem 0 1.5rem",
     "text-align": "left",
     "font-weight": "black"

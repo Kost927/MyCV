@@ -12,7 +12,8 @@ export const sidebar = [
     imageStyles: {
       width: "80%",
       height: "auto",
-      "border-radius": "50%"
+      "border-radius": "50%",
+      border: "5px solid white"
     },
     alt: "My photo"
   }),
@@ -20,7 +21,6 @@ export const sidebar = [
   new TitleBlock("KOSTIANTYN POLISHKO", {
     tag: "h1",
     styles: {
-      color: "black",
       padding: "0.3rem 1.5rem",
       "text-align": "left",
       "font-weight": "black"
@@ -30,7 +30,6 @@ export const sidebar = [
   new TitleBlock("Front-end developer", {
     tag: "h4",
     styles: {
-      color: "black",
       padding: "0 1.5rem",
       "text-align": "left",
       "font-weight": "black",
@@ -41,7 +40,6 @@ export const sidebar = [
   new TitleBlock("TECH SKILLS", {
     tag: "h2",
     styles: {
-      color: "black",
       padding: "1.5rem 1.5rem 0 1.5rem",
       "text-align": "left",
       "font-weight": "black"
@@ -59,7 +57,6 @@ export const sidebar = [
   new TitleBlock("SOFT SKILLS", {
     tag: "h2",
     styles: {
-      color: "black",
       padding: "1.5rem 1.5rem 0 1.5rem",
       "text-align": "left",
       "font-weight": "black"
@@ -77,7 +74,6 @@ export const sidebar = [
     new TitleBlock("LANGUAGES", {
         tag: "h2",
         styles: {
-            color: "black",
             padding: "1.5rem 1.5rem 0 1.5rem",
             "text-align": "left",
             "font-weight": "black"
@@ -95,7 +91,6 @@ export const sidebar = [
     new TitleBlock("CONTACT DETAILS:", {
         tag: "h2",
         styles: {
-            color: "black",
             padding: "1.5rem 1.5rem 0 1.5rem",
             "text-align": "left",
             "font-weight": "black"
