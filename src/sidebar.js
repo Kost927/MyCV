@@ -10,7 +10,7 @@ export const sidebar = [
       "justify-content": "center"
     },
     imageStyles: {
-      width: "380px",
+      width: "80%",
       height: "auto",
       "border-radius": "50%"
     },
@@ -56,7 +56,7 @@ export const sidebar = [
     }
   }),
 
-  new TitleBlock("TECH SKILLS", {
+  new TitleBlock("SOFT SKILLS", {
     tag: "h2",
     styles: {
       color: "black",

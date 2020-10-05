@@ -314,7 +314,7 @@ var contact = "<ul>\n<li>Phone number: +380992903619</li>\n<li>Email: kost927@gm
 exports.contact = contact;
 var text = "\nI\u2019m looking for a junior position to get a proper background in web development and gain practical skills. I\u2019ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full-time course (4 months, 40 hours per week).\xA0 My plan is to get the first paid-job in the field max in 6 months. So, now, I want to focus on learning new skills and getting a real-life experience in Front-End.\n";
 exports.text = text;
-var proj = "<ul>\n<li>\n<a href=\"https://bit.ly/2FBj2LS\">HELLENGLISH:\xA0</a> => CSS_3/HTML_5 => Chrome DevTools, Responsive Web, Mobile First, BEM, Bootstrap 4, SASS, Gulp\xA0\n</li>\n<li>\n<a href=\"https://bit.ly/3iDVm88\">HOME APPLIANCES STORE:\xA0</a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, FireBase DB\n</li>\n<li>\n<a href=\"https://make-it-habit.netlify.app\">MAKE IT HABIT:\xA0</a> => React.JS => React (Lazy/Suspense), Redux, React Hooks\n</li>\n</ul>";
+var proj = "<ul>\n<li>\n<a href=\"https://bit.ly/2FBj2LS\">HELLENGLISH:\xA0</a> => CSS_3/HTML_5 => Chrome DevTools, Responsive Web, Mobile First, BEM, Bootstrap 4, SASS, Gulp\xA0\n</li>\n<li>\n<a href=\"https://bit.ly/3iDVm88\">HOME APPLIANCES STORE:\xA0</a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, Firebase DB\n</li>\n<li>\n<a href=\"https://make-it-habit.netlify.app\">MAKE IT HABIT:\xA0</a> => React.JS => React (Lazy/Suspense), Redux, React Hooks\n</li>\n<li>\n<a href=\"https://polishkocv.firebaseapp.com/\">My CV: ( VanillaJS )\xA0</a> => JavaScript => OOP, Parcel, Firebase DB, Firebase hosting, NPM, Bootstrap.\n</li>\n</ul>";
 exports.proj = proj;
 var academy = "<ul>\n<li>\nEnd date 2011\n</li>\n<li>\nFoundry production, Master\u2019s degree\n</li>\n</ul>";
 exports.academy = academy;
@@ -624,7 +624,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
     "justify-content": "center"
   },
   imageStyles: {
-    width: "380px",
+    width: "80%",
     height: "auto",
     "border-radius": "50%"
   },
@@ -660,7 +660,7 @@ var sidebar = [new _blocks.ImageBlock(_polishko.default, {
     "font-weight": "500",
     "font-style": "italic"
   }
-}), new _blocks.TitleBlock("TECH SKILLS", {
+}), new _blocks.TitleBlock("SOFT SKILLS", {
   tag: "h2",
   styles: {
     color: "black",
@@ -816,7 +816,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65182" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61165" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

@@ -43,10 +43,13 @@ export const proj = `<ul>
 <a href="https://bit.ly/2FBj2LS">HELLENGLISH: </a> => CSS_3/HTML_5 => Chrome DevTools, Responsive Web, Mobile First, BEM, Bootstrap 4, SASS, Gulp 
 </li>
 <li>
-<a href="https://bit.ly/3iDVm88">HOME APPLIANCES STORE: </a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, FireBase DB
+<a href="https://bit.ly/3iDVm88">HOME APPLIANCES STORE: </a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, Firebase DB
 </li>
 <li>
 <a href="https://make-it-habit.netlify.app">MAKE IT HABIT: </a> => React.JS => React (Lazy/Suspense), Redux, React Hooks
+</li>
+<li>
+<a href="https://polishkocv.firebaseapp.com/">My CV: ( VanillaJS ) </a> => JavaScript => OOP, Parcel, Firebase DB, Firebase hosting, NPM, Bootstrap.
 </li>
 </ul>`
 
