@@ -40,7 +40,7 @@ export const contact = `<ul>
 </ul>`;
 
 export const text = `
-I’m looking for a junior position to get a proper background in web development and gain practical skills. I’ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full-time course (6 months, 40 hours per week).  My plan is to get the first paid-job in the field max in 6 months. So, now, I want to focus on learning new skills and getting a real-life experience in Front-End.
+I’m looking for a junior position to get a proper background in web development and gain practical skills. I’ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full-time course (6 months, 40 hours per week). Also I've got skills in Angular 9 and RxJS library by self-learning.
 `;
 
 export const proj = `<ul>
@@ -57,7 +57,7 @@ export const proj = `<ul>
 <a href="https://polishkocv.firebaseapp.com/" target="_blank">My CV: ( VanillaJS ) </a> => JavaScript => OOP, Parcel, Firebase DB, Firebase hosting, NPM, Bootstrap.
 </li>
 <li>
-<a href="bit.ly/39gHRZM" target="_blank">Financial Assistant: </a> => Node.js, MongoDB, React.js (Hooks), Redux, JavaScript.
+<a href="https://bit.ly/39gHRZM" target="_blank">FINANCIAL ASSISTANT: </a> => Node.js, MongoDB, React.js (Hooks), Redux, JavaScript.
 </li>
 </ul>`;
 
