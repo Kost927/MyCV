@@ -310,17 +310,17 @@ var soft = "<ul>\n<li>Result-oriented</li>\n<li>Sociable</li>\n<li>Reliable</li>
 exports.soft = soft;
 var languages = "<ul>\n<li>Ukranian</li>\n<li>English</li>\n<li>Russian</li>\n</ul>";
 exports.languages = languages;
-var contact = "<ul>\n<li>Phone number: +380992903619</li>\n<li>Email: kost927@gmail.com</li>\n<li>Kiev</li>\n<li><a href=\"https://www.linkedin.com/in/kostyantin-polishko/\">LinkedIn</a></li>\n\n</ul>";
+var contact = "<ul>\n<li>\n<span>Phone number: <a href=tel:+380992903619>+380992903619</a></span>\n</li>\n<li>\n<span>Email: <a href=mailto:kost927@gmail.com>kost927@gmail.com</a></span>\n</li>\n<li>Ukraine, Kiev</li>\n<li><a href=\"https://www.linkedin.com/in/kostyantin-polishko/\" target=\"_blank\">LinkedIn</a></li>\n\n</ul>";
 exports.contact = contact;
 var text = "\nI\u2019m looking for a junior position to get a proper background in web development and gain practical skills. I\u2019ve gotten decent skills of HTML/CSS and basic knowledge of JS & React during the intensive full-time course (4 months, 40 hours per week).\xA0 My plan is to get the first paid-job in the field max in 6 months. So, now, I want to focus on learning new skills and getting a real-life experience in Front-End.\n";
 exports.text = text;
 var proj = "<ul>\n<li>\n<a href=\"https://bit.ly/2FBj2LS\">HELLENGLISH:\xA0</a> => CSS_3/HTML_5 => Chrome DevTools, Responsive Web, Mobile First, BEM, Bootstrap 4, SASS, Gulp\xA0\n</li>\n<li>\n<a href=\"https://bit.ly/3iDVm88\">HOME APPLIANCES STORE:\xA0</a> => JavaScript=> OOP, ES6+, DOM, NPM, Webpack, REST/JSON, AJAX, CRUD, Firebase DB\n</li>\n<li>\n<a href=\"https://make-it-habit.netlify.app\">MAKE IT HABIT:\xA0</a> => React.JS => React (Lazy/Suspense), Redux, React Hooks\n</li>\n<li>\n<a href=\"https://polishkocv.firebaseapp.com/\">My CV: ( VanillaJS )\xA0</a> => JavaScript => OOP, Parcel, Firebase DB, Firebase hosting, NPM, Bootstrap.\n</li>\n</ul>";
 exports.proj = proj;
-var academy = "<ul>\n<li>\nEnd date 2011\n</li>\n<li>\nFoundry production, Master\u2019s degree\n</li>\n</ul>";
+var academy = "<ul>\n<li>End date 2011</li>\n<li>Foundry production, Master\u2019s degree</li>\n</ul>";
 exports.academy = academy;
-var english = "<ul>\n<li>\nCourse.\n</li>\n<li>\nTraining center in Dnipro.\n</li>\n</ul>";
+var english = "<ul>\n<li>Course.</li>\n<li>Training center in Dnipro.</li>\n</ul>";
 exports.english = english;
-var goit = "<ul>\n<li>\nIT Bootcamp.\n</li>\n<li>\nFront end development.\n</li>\n</ul>";
+var goit = "<ul>\n<li>IT Bootcamp.</li>\n<li>Front end development.</li>\n</ul>";
 exports.goit = goit;
 },{}],"model.js":[function(require,module,exports) {
 "use strict";
@@ -444,7 +444,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TitleBlock('National Metallurgical Academy', {
+}), new _blocks.TitleBlock('GOIT', {
   tag: 'h4',
   styles: {
     color: 'black',
@@ -452,7 +452,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(_constants.academy, {
+}), new _blocks.TextBlock(_constants.goit, {
   styles: {
     'font-weight': '500',
     "font-style": 'italic'
@@ -470,7 +470,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'font-weight': '500',
     "font-style": 'italic'
   }
-}), new _blocks.TitleBlock('GOIT', {
+}), new _blocks.TitleBlock('National Metallurgical Academy', {
   tag: 'h4',
   styles: {
     color: 'black',
@@ -478,7 +478,7 @@ var model = [new _blocks.TitleBlock('CAREER GOALS', {
     'text-align': 'left',
     'font-weight': 'black'
   }
-}), new _blocks.TextBlock(_constants.goit, {
+}), new _blocks.TextBlock(_constants.academy, {
   styles: {
     'font-weight': '500',
     "font-style": 'italic'
@@ -811,7 +811,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61165" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51169" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

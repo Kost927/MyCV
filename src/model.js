@@ -143,7 +143,7 @@ export const model = [
     }
   }),
 
-  new TitleBlock('National Metallurgical Academy', {
+  new TitleBlock('GOIT', {
     tag: 'h4',
     styles: {
       color: 'black',
@@ -153,7 +153,7 @@ export const model = [
     }
   }),
 
-  new TextBlock(academy, {
+  new TextBlock(goit, {
     styles: {
       'font-weight': '500',
       "font-style": 'italic'
@@ -177,7 +177,7 @@ export const model = [
     }
   }),
 
-  new TitleBlock('GOIT', {
+  new TitleBlock('National Metallurgical Academy', {
     tag: 'h4',
     styles: {
       color: 'black',
@@ -187,7 +187,7 @@ export const model = [
     }
   }),
 
-  new TextBlock(goit, {
+  new TextBlock(academy, {
     styles: {
       'font-weight': '500',
       "font-style": 'italic'
